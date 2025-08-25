@@ -1,5 +1,5 @@
 @echo off
-cls & echo wingetDebloated - A winget bloatware removal tool made in batch & echo.
+cls & echo winget debloat - A winget bloatware removal tool made in batch & echo.
 
 echo [1/4] Do you want to keep Microsoft Edge? y/n 
 set /p edge="> "
