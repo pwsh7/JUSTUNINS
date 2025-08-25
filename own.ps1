@@ -1,16 +1,3 @@
-# A basic script for uninstalling app packages in Windows 10/11, including those pre-installed with Windows
-#
-# Note: If you get an error about the script not being allowed to run, the below command will change the execution polciy temporarily for one session only:
-# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-#
-# To execute the script, open a Powershell window to the directory with the script and run the following command using your scripts file name (and don't forget the .\ )
-
-
-# Release note: Microsoft adds new stupid apps, guess what, baby? WE SENDING THEM TO TRASH!!
-
-
-#script starts here
-
 Get-AppxPackage | Select Name, PackageFullName | Out-Host
 
 
